@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .container {
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+    
+    .change .bar1 {
+      transform: translate(0, 11px) rotate(-45deg);
+    }
+    
+    .change .bar2 {opacity: 0;}
+    
+    .change .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
+  
+</style>
+</head>
+<body>
+    <!--HEADER START-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        
+            <table width="1500px">
+<tr>
+    <!--menu icon START-->
+        <td width="200px">
+          <a class="navbar-brand" href="#">
+<div class="container" onclick="myFunction(this)" width="35px">
+    <div class="bar1" width="35px"></div>
+    <div class="bar2" width="35px"></div>
+    <div class="bar3" width="35px"></div>
+  </div>
+  
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+  <!--menu icon FINISH-->  </a>
+</td>
+        <td>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Trade</a>
+              </li>
+            </td>
+            <td>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Circles</a>
+                    </li>
+                  </td>
+                  <td>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#"><button><img width="20" height="20" src="https://img.icons8.com/ios/50/marker--v1.png" alt="marker--v1"/> Andheri, Mumbai</button></a>
+                        </li>
+                      </td>
+              <td>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Electronics
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+              </td>
+
+              <td width="500px">
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Cars" aria-label="Search">
+                </form>
+
+              </td>
+              <td>
+                <a class="navbar-brand" href="#"> <img width="20" height="20" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/> </a>
+              </td>
+              <td>
+                <a class="navbar-brand" href="#"></a> <button type="button" class="btn btn-info" style="color: aliceblue;">Create Crircle</button> </a>
+              </td>
+              <td>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sign In
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+              </td>
+        </tr>
+        </table>
+        </div>
+      </nav>
+    <!--HEADER END-->
+    <table width="1500px" style="margin: auto;">
+<tr>
+    <!--TOP row start-->
+    <td>
+<table>
+    <tr>
+        <td><img src="images/background.png" width="1500px"></td>
+    </tr>
+    <tr>
+        <td style="font-size:20px; text-align: center;"><b>Mohammed Kothari</b></td>
+    </tr>
+    <tr>
+        <td style="font-size:15px; text-align: center; color: gray;">Mumbai, IN</td>
+    </tr>
+    <tr>
+        <td height="10px"></td>
+    </tr>
+    <tr>
+        <td style="font-size:10px; text-align: center; ;">Hi! I am Mohammed; a 20 year old aspiring UI/UX Designer. Designer by day, doodler by night. Fluent in Adobe and sarcasm. Obsessed with color palettes and obscure fonts. Turning imagination into visual stories. <b>Read More</b></td>
+    </tr>
+    <tr>
+        <td height="50px"></td>
+    </tr>
+</table>
+    </td>
+</tr>
+    <!--TOP row end-->
+<!--ROW 2 START-->
+<tr>
+    <td>
+        
+<table style="border: 1px solid rgb(194, 194, 194); padding: 20px;">
+    <tr>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">152<br><a class="text">Design Projects Taken</class></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">2604<br><a class="text">Social Circles</a></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">7045<br><a class="text">Followers</a></button></td>
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-light">2489<br><a class="text">Following</a></button></td>
+        <td width="350px"></td>   
+        <td width="200px" style="text-align: center;"><button type="button" class="btn btn-danger">Chat</button></td>
+        <td width="20px" style="text-align: center;"><button type="button" class="btn btn-outline-info">Follow</button></td>
+        <td width="100px" style="text-align: center;"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/ellipsis.png" alt="ellipsis"/></td>   
+
+    </tr>
+</table>
+
+    </td>
+</tr>
+<!--ROW 2 END-->
+
+<!--Row 3 START-->
+<tr>
+    <td>
+<table style=" background-color: rgb(227, 227, 227);">
+    <tr>
+        <td height="30px"></td>
+    </tr>
+    <tr>
+        <td style="font-size: 20px;" width="1300px"><b>Portfolio</b></td>
+        <td style="font-size: 10px; color: gray" width="100px">Sort by</td>
+        <td style="font-size: 10px;" width="100px">
+
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Newest first
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                      
+          </td>
+    </tr>
+    </table>
+    <table style=" background-color: rgb(227, 227, 227); margin:auto" width="1500px">
+    <tr>
+        <td height="30px"></td>
+    </tr>
+    <tr>
+        <td>
+            <table style="background-color: white; margin:auto"  width="225px">
+                <tr>
+                    <td colspan="2"><img src="images/COVER.jpg" width="220px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Teenage Relationships</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a class="text">Magazine Cover Design</class><a class="text2">Passion Project</class></td>
+                </tr>
+                <tr>
+                    <td height="15px"></td>
+                </tr>
+                <tr>
+                    <td width="180px"></td>
+                    <td><a class="text"></a></td>
+                </tr>
+
+                
+            </table>
+        </td>
+    
+
+    
+        <td>
+            <table style="background-color: white; margin:auto"  width="225px">
+                <tr>
+                    <td colspan="2"><img src="images/book cover.jpg" width="220px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Moby Dick </b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a class="text">Cover Re-Design </class><a class="text2">Passion Project</class></td>
+                </tr>
+                <tr>
+                    <td height="15px"></td>
+                </tr>
+                <tr>
+                    <td width="180px"></td>
+                    <td><a class="text"></a></td>
+                </tr>
+
+                
+            </table>
+        </td>
+
+        <td>
+            <table style="background-color: white; margin:auto" width="225px">
+                <tr>
+                    <td colspan="2"><img src="images/cap.jpg" width="220px" height="280px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Cap Merch Design</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a class="text">Logo & Illustration </class><a class="text2">Paid Project</class></td>
+                </tr>
+                <tr>
+                    <td height="15px"></td>
+                </tr>
+                <tr>
+                    <td width="180px">For Aaryan Kataria</td>
+                    <td><a class="text"></a></td>
+                </tr>
+
+                
+            </table>
+        </td>
+
+        <td>
+            <table style="background-color: white; margin:auto"  width="225px">
+                <tr>
+                    <td colspan="2"><img src="images/weeknd.jpeg" width="220px" height="280px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>The Weeknd</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a class="text">Handpainted Glass Painting</class><a class="text2">Paid Project</class></td>
+                </tr>
+                <tr>
+                    <td height="15px"></td>
+                </tr>
+                <tr>
+                    <td width="180px">$100.00</td>
+                    <td><a class="text">SOLD</a></td>
+                </tr>
+
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+    </td>
+</tr>
+<!--Row 3 END-->
+    </table>
+        </body>
+</html>
